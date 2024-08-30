@@ -4,7 +4,7 @@ import Theme from './Theme'
 
 const Header = () => {
   return (
-    <View className="w-screen h-[35%] bg-black flex flex-row justify-between items-center">
+    <View className="w-screen h-[15%] bg-black flex flex-row justify-between items-center">
         <View className="w-[50%] flex items-start pl-5">
             <Image 
             source={{
@@ -15,7 +15,7 @@ const Header = () => {
         </View>
         <View className="w-[50%] flex items-end pr-5">
             {/* <Theme/> */}
-            <Text className="text-white">
+            <Text className="text-[#00FFFF]">
                 Hello !
             </Text>
         </View>
